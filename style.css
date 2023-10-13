@@ -278,7 +278,32 @@ pre:after {
     text-align: right;
     top: 0
 }
-
+/*加密文章密码输入框样式*/
+form.protected {
+    text-align: center;
+}
+.protected input.text {
+    background: #f7f7f7;
+    border-radius: 5px;
+    padding: 4px 8px;
+}
+.dark .protected input.text {
+    background: #101928;
+}
+.protected .submit {
+    cursor: pointer;
+    background: #2196F3;
+    color: white;
+    padding: 4px 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 100ms;
+}
+.protected .submit:hover {
+    background: #3F51B5;
+}
 /*--------------------------------------------------------------
 ## Media
 --------------------------------------------------------------*/

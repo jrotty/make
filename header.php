@@ -14,7 +14,7 @@
 
 <link rel="apple-touch-icon" href="<?php $this->options->themeUrl('img/logo.svg'); ?>">
 <link rel="icon" href="<?php $this->options->themeUrl('img/logo.svg'); ?>">
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css?10'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css?11'); ?>">
     
 <!--<script src="https://cdn.tailwindcss.com"></script>
      <script>

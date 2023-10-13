@@ -518,15 +518,6 @@ embed {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
-.book{
-    background-image: url('./img/book.png');
-    background-position: right top;
-    background-repeat: no-repeat;
-    background-size: 80px auto;
-}
-.indextop{
-    background-image: url('./img/bg.jpg');
-}
 
 
 /*通用评论组件样式草案*/

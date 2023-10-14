@@ -18,7 +18,7 @@ $this->need('header.php'); ?>
 
 
 
-<section class="max-w-screen-lg mx-auto my-6 bg-white dark:bg-gray-900">
+<section class="max-w-screen-lg mx-auto my-6 bg-white dark:bg-gray-800 rounded-md">
     <div class="container px-6 py-12 mx-auto lg:flex lg:items-center lg:gap-12">
         <div class="wf-ull lg:w-1/2">
             <p class="text-sm font-medium text-blue-500 dark:text-blue-400">404 error</p>

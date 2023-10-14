@@ -22,7 +22,7 @@ tailwind.config = {
   darkMode: 'class',
 }
 </script>-->
-     <link href="<?php $this->options->themeUrl('src/output.css?202310101'); ?>" rel="stylesheet">
+     <link href="<?php $this->options->themeUrl('src/output.css?20231013'); ?>" rel="stylesheet">
     <!-- 通过自有函数输出HTML头部信息 -->
     <?php $this->header('generator=&template=&commentReply='); ?>
 </head>

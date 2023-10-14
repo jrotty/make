@@ -133,11 +133,14 @@ function get_post_view($archive,$r=0)
         }else{
             $views = explode(',', $views);
         }
+        $views = array();//跳过cookie验证，现在的年轻人不喜欢过于真实的数据
 if(!in_array($cid,$views)){
        $db->query($db->update('table.contents')->rows(array('views' => (int) $row['views'] + 1))->where('cid = ?', $cid));
-array_push($views, $cid);
-            $views = implode(',', $views);
-            Typecho_Cookie::set('extend_contents_views', $views); //记录查看cookie
+
+       array_push($views, $cid);
+       $views = implode(',', $views);
+       Typecho_Cookie::set('extend_contents_views', $views); //记录查看cookie
+
         }
     }
 if($r==0){

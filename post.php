@@ -9,7 +9,7 @@ $this->need('header.php'); ?>
 <div class="container mx-auto py-12">
     <div class="text-center w-full">
         <h2 class="text-3xl xl:text-4xl font-bold mt-4 text-white capitalize"><?php $this->title() ?></h2>
-        <p class="text-gray-300  mt-4 text-sm"><?php $this->date('Y年m月d日'); ?></p>
+        <p class="text-gray-300  mt-4 text-sm"><span class="mr-1"><?php $this->date('Y年m月d日'); ?></span><span>浏览:<?php get_post_view($this); ?></span></p>
     </div>
 </div>
 </section>

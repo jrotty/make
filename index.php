@@ -4,7 +4,7 @@
  *
  * @package make
  * @author 泽泽社长
- * @version 20231013
+ * @version 20231014
  * @link https://typecho.work
  */
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;

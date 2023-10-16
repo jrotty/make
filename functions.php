@@ -75,7 +75,7 @@ function archives($widget, $excerpt = false) {
 //文章缩略图函数
 function showThumbnail($widget,$type=0)
 { 
-    $random = theurl.'img/mr.jpg';//这里时默认缩略图
+    $random = theurl.'img/none.png';//这里时默认缩略图
     $pattern = '/\<img.*?\ssrc\=\"(.*?)\"[^>]*>/i';
     $attach = $widget->widget('Widget_Contents_Attachment_Related@' . $widget->cid . '-' . uniqid(), array(
             'parentId'  => $widget->cid,'limit'     => 1,'offset'    => 0))->attachment;
